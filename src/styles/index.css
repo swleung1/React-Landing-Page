@@ -9,3 +9,14 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body,
+html,
+#root {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
